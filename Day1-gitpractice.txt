@@ -1,0 +1,7 @@
+1.git basic commands
+2.git repo add
+3.git initialize
+4.lunch break
+5.moving from staging
+
+
