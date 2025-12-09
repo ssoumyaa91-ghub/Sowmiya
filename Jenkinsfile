@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "Build Step"
+                echo "Build Step -Jenkinsfile"
             }
         }
         stage('Test') {
             steps {
-                echo "Test Step"
+                echo "Test Step -Jenkinsfile"
             }
         }
         stage('Deploy') {
             steps {
-                echo "Deploy Step"
+                echo "Deploy Step -Jenkinsfile"
             }
         }
     }
