@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx
+spec:
+  containers:
+  - name: nginx
+    image: DOCKERHUB_USERNAME/helloworld-demo-python:v1
+    ports:
+    - containerPort: 8080
+
+    
